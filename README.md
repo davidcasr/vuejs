@@ -1,5 +1,7 @@
 # Projects in Vue.js
 
+These projects are practice exercise to I study the Progressive JavaScript Framework Vue.js
+
 ## bitcoin-price
 
 Bitcoin Price is a simple exercise for apply basic concepts of Vue.js
