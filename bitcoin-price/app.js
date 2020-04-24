@@ -12,7 +12,7 @@ Vue.component('CoinDetail', {
     toggleShowPrices () {
       this.showPrices = !this.showPrices
 
-      this.$emit('change-color', this.showPrices ? 'FF96C8' : '3D3D3D')
+      this.$emit('change-color', this.showPrices ? '35495e' : '42b883')
     }
   },
 
@@ -38,7 +38,6 @@ Vue.component('CoinDetail', {
     console.log('Mounted CoinDetail...')
   },
 
-
   template: `
     <div>
       <img
@@ -59,7 +58,7 @@ Vue.component('CoinDetail', {
       </h1>
 
       <input type="number" v-model="value">
-      <span>{{ convertedValue }}</span>
+      <b>{{ convertedValue }}</b>
 
       <slot name="text"></slot>
       <slot name="link"></slot>
