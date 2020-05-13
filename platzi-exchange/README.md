@@ -1,5 +1,7 @@
 # platzi-exchange
 
+Platzi Exchange is a platform that will help you visualize all cryptocurrencies and their values in real time using the advantages of Vue.js
+
 ## Project setup
 ```
 npm install
